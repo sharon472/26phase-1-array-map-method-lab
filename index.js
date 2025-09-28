@@ -1,5 +1,3 @@
-
-
 const tutorials = [
   'what does the this keyword mean?',
   'What is the Constructor OO pattern?',
@@ -10,7 +8,7 @@ const tutorials = [
         
   'what is the difference between == and ===?',
   'what is the difference between event capturing and bubbling?',
-    'what is JSONP?'
+    
 ];
 
 const titleCased = () => {
@@ -25,4 +23,6 @@ const titleCased = () => {
       .join(" ");
   });
 };
+
+
 
